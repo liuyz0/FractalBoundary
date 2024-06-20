@@ -1,7 +1,7 @@
 # Complex fractal trainability boundary can arise from trivial non-convexity 
 
 ## General information
-".jl" and ".py" are mainly for experiments, ".ipynb" is for tests and data analysis, and ".mat" contains raw data. Note exp-$i$.jl and gpuexp-$i$.py are doing the same experiment. We move the latter to GPUs.
+".jl" and ".py" are mainly for experiments, ".ipynb" is for tests and data analysis, and ".mat" contains raw data. Note exp-i.jl and gpuexp-i.py are doing the same experiment. We move the latter to GPUs.
 
 ## Fig. 1a
 Partly done with visual-1.ipynb
