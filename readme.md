@@ -3,6 +3,9 @@
 ## General information
 ".jl" and ".py" are mainly for experiments, ".ipynb" is for tests and data analysis, and ".mat" contains raw data. Note exp-i.jl and gpuexp-i.py are doing the same experiment. We move the latter to GPUs.
 
+Here is a one dimensional fractal generated based on loss during training, where the x-axis is learning rate and the y-axis has no meaning.
+![see figure](./figures/visual.jpg)
+
 ## Fig. 1a
 Partly done with visual-1.ipynb
 
