@@ -1,10 +1,12 @@
 # Complex fractal trainability boundary can arise from trivial non-convexity 
 
 ## General information
-".jl" and ".py" are mainly for experiments, ".ipynb" is for tests and data analysis, and ".mat" contains raw data. Note exp-i.jl and gpuexp-i.py are doing the same experiment. We move the latter to GPUs.
+This repository contains code and data of [this short paper](https://arxiv.org/abs/2406.13971), where fractal trainability boundaries (in changing learning rate) are found even with very simple non-convex functions. We therefore guess that fractal behaviors generally exist in non-covex optimization based on discrete iterations.
 
 Here is a one dimensional fractal generated based on loss during training, where the x-axis is learning rate and the y-axis has no meaning.
 ![see figure](./figures/visual.jpg)
+
+".jl" and ".py" in the repository are for experiments, ".ipynb" is for tests and data analysis, and ".mat" contains raw data. Note exp-i.jl and gpuexp-i.py are doing the same experiment. We move the latter to GPUs.
 
 ## Fig. 1a
 Partly done with visual-1.ipynb
